@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 
 
-mongoose.connect('mongodb+srv://shubham321raj:nikhil4840@cluster0.lcexdtm.mongodb.net/roxilersystems?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('MONGODB_URL', { useNewUrlParser: true, useUnifiedTopology: true });
 const connection = mongoose.connection;
 connection.once('open', function() {
     console.log("MongoDB database connection established successfully");
