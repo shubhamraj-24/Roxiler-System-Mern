@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(58, 58, 109);
+}
+table{
+  width:1100px;
+  background-color: #dfb705;
+  margin-left:16%;
+  color:black;
+  margin-top:100px;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  
+}
+.drpdwn select{
+  width:150px;
+  height:40px;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: absolute;
+  top:50px;
+  right:300px;
+  background-color: #dfb705;
+  padding:5px;
+}
+input{
+  width:250px;
+  height:20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: absolute;
+  top:50px;
+  left:300px;
+  background-color: #f0d973;
+  padding: 10px;
+}
+.stats{
+  width:400px;
+  height:200px;
+  background-color: #f0d973;
+  border-radius: 10px;
+  margin-left:40%;
+  padding: 20px;
+  padding-top: 5px;
+}
+.tablebtn button{
+  width:100px;
+  height:30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: absolute;
+  top:1300px;
+  right:300px;
+  background-color: #dfb705;
+}
+.chart{
+  margin-left:35%;
+}
